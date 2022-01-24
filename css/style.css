@@ -1,0 +1,59 @@
+/* Estilos que viene con el archivo */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* 
+    Tamaño para la tarjeta 320px
+*/
+
+/* Custom Variables */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* estilos para la tarjeta */
+.card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 320px;
+    margin-bottom: 1.6rem;
+    padding: 2.1rem;
+    background-color: var(--white);
+    border-radius: 2rem;
+}
+
+.card img {
+    margin-bottom: 1.6rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+figcaption h1 {
+    margin-bottom: 1.6rem;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--dark-blue);
+}
+
+figcaption p {
+    text-align: center;
+    color: var(--grayish-blue);
+}
